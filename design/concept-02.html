@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>세법 라이브러리 · 자료와 근거로 답하기</title>
+<style>
+:root{font-family:"Malgun Gothic","맑은 고딕","Segoe UI",sans-serif;color:#24364b;background:#fff;font-synthesis:none;--blue:#003764;--red:#e4032e;--muted:#788694;--line:#e7ebf0;--soft:#f7f9fb}
+*{box-sizing:border-box}body{margin:0}a{color:var(--blue);text-underline-offset:4px}button,input{font:inherit}button:disabled{opacity:1;cursor:not-allowed}button,a,summary,input{outline-offset:4px}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid #286dba}h1,h2,p{margin:0}svg{display:block;flex:none}
+.header{block-size:72px;border-block-end:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding-inline:27px;gap:20px}
+.brand{display:flex;align-items:center;gap:11px;font-size:17px;font-weight:800;letter-spacing:-.7px}.brand-mark{inline-size:25px;block-size:29px;border-radius:5px;background:var(--blue);position:relative;display:grid;place-content:center;gap:3px}.brand-mark:before{content:"";position:absolute;inline-size:5px;block-size:5px;background:var(--red);inset-block-start:5px;inset-inline-end:4px;border-radius:1px}.brand-mark i{inline-size:12px;block-size:2px;background:white}.brand-mark i:last-child{inline-size:8px}
+.prototype{font-size:10px;color:var(--muted)}.shell{display:grid;grid-template-columns:252px minmax(0,1fr);min-block-size:calc(100dvh - 72px)}
+.library{background:#fafbfc;border-inline-end:1px solid var(--line);padding:27px 18px;display:flex;flex-direction:column;min-inline-size:0}.library-heading{display:flex;align-items:center;justify-content:space-between;padding-inline:8px;margin-block-end:18px}.library-heading h2{font-size:12px}.library-heading span{font-size:10px;color:var(--muted)}
+.upload{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--blue);color:white;border:0;border-radius:6px;padding:12px;font-size:12px;font-weight:700;inline-size:100%}.upload-help{font-size:10px;line-height:1.9;color:var(--muted);text-align:center;margin-block:10px 25px}.document{display:block;text-decoration:none;color:#536576;padding:13px 12px;border-radius:6px;margin-block-end:7px;overflow-wrap:anywhere}.document.active{color:var(--blue);background:#edf3f8}.document-title{display:flex;align-items:flex-start;gap:8px;font-size:11px;font-weight:600;line-height:1.65}.document-title svg{margin-block-start:3px}.document small{display:block;color:var(--muted);font-size:9px;margin:5px 0 0 22px}.library-more{font-size:10px;color:var(--muted);margin:8px 12px 0;text-decoration:none}.library-bottom{margin-block-start:auto;padding:30px 8px 5px}.workflow{font-size:10px;color:#657c92;line-height:2}.workflow strong{display:block;color:#405a72;font-size:11px;font-weight:600;margin-block-end:5px}.library-bottom small{display:block;font-size:9px;line-height:1.9;color:#96a0aa;margin-block-start:12px}
+.workspace{min-inline-size:0;padding:32px 48px 24px}.reading-column{max-inline-size:820px;margin-inline:auto}.workspace-top{display:flex;justify-content:space-between;align-items:center;margin-block-end:34px;font-size:11px;color:var(--muted)}.scope{display:flex;align-items:center;gap:7px}.scope:before{content:"";inline-size:5px;block-size:5px;border-radius:50%;background:var(--blue)}
+h1{font-size:24px;font-weight:700;letter-spacing:-.9px;line-height:1.65;margin-block-end:25px}.answer-label{font-size:10px;color:#67816f;display:flex;gap:6px;align-items:center;margin-block-end:15px}.answer-label svg{color:#67816f}.answer{font-size:13px;line-height:2.05;color:#405467}.answer .lead{font-size:15px;font-weight:600;line-height:1.9;color:#253e56;margin-block-end:18px}.answer p+p{margin-block-start:15px}.answer strong{color:#253e56;font-weight:700}.citation{display:inline-flex;justify-content:center;align-items:center;inline-size:22px;block-size:20px;border-radius:4px;background:#edf4fa;color:#205b91;font-size:10px;text-decoration:none;font-weight:700;margin-inline-start:5px;vertical-align:1px}.answer-limit{font-size:11px;line-height:1.95;color:#7e7d75;border-inline-start:2px solid #dbcfaf;padding-inline-start:12px;margin-block-start:23px}.answer-limit strong{color:#7a725e;font-weight:600}
+.evidence{margin-block-start:27px}.evidence-heading{display:flex;align-items:center;justify-content:space-between;margin-block-end:12px}.evidence-heading h2{font-size:11px;font-weight:600}.evidence-heading span{font-size:9px;color:var(--muted)}.source{border:1px solid var(--line);border-radius:6px;margin-block-end:9px;background:#fff;scroll-margin-block:20px}.source summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:13px 15px;font-size:10px;min-inline-size:0}.source summary::-webkit-details-marker{display:none}.source-number{font-size:9px;color:var(--blue);background:#edf4fa;border-radius:3px;inline-size:20px;block-size:20px;display:grid;place-content:center;flex:none}.source-name{font-weight:600;color:#41566c;min-inline-size:0;overflow-wrap:anywhere}.source-location{margin-inline-start:auto;font-size:9px;color:var(--muted);white-space:nowrap}.source-chevron{font-size:11px;color:#7f91a2}.source[open] .source-chevron{transform:rotate(180deg)}.source-body{padding:0 17px 16px 45px}.source blockquote{margin:0;padding:12px 14px;border-inline-start:2px solid #bdd0e1;background:var(--soft);font-size:11px;line-height:1.95;color:#4c647a}.source-body .source-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-block-start:12px;font-size:9px;color:var(--muted)}.source-meta a{font-weight:600;font-size:10px}.quote-extra{font-size:10px;line-height:1.9;color:#74808c;margin-block-start:10px}
+.composer{margin-block-start:30px;border:1px solid #c9d7e4;border-radius:8px;padding:16px 16px 12px;background:#fff}.composer label{display:block;font-size:12px;color:#8a96a3}.composer input{inline-size:100%;border:0;background:transparent;outline:0;padding:0;color:#81909e;font-size:12px;min-inline-size:0}.composer-footer{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-block-start:24px}.composer-footer small{font-size:9px;color:var(--muted)}.send{display:grid;place-content:center;inline-size:30px;block-size:30px;border:0;border-radius:6px;background:var(--blue);color:#fff}.disclaimer{text-align:center;margin-block-start:11px;font-size:9px;line-height:1.8;color:#909ba6}
+@media(min-width:1500px){.workspace{padding-block-start:48px}}
+@media(max-width:1000px){.shell{grid-template-columns:215px minmax(0,1fr)}.workspace{padding:28px}.source-body{padding-inline-start:17px}.source summary{flex-wrap:wrap}.source-location{margin-inline-start:auto}}
+@media(max-width:700px){.header{padding:16px 18px;block-size:auto;align-items:flex-start;flex-wrap:wrap;gap:10px}.brand{font-size:16px}.prototype{font-size:9px}.shell{grid-template-columns:minmax(0,1fr)}.library{border-inline-end:0;border-block-end:1px solid var(--line);padding:18px}.library-heading{padding-inline:0;margin-block-end:12px}.library .document,.library .library-more,.library-bottom{display:none}.upload{inline-size:100%;padding:11px}.upload-help{margin-block:8px 0}.workspace{padding:24px 20px}.workspace-top{margin-block-end:24px;font-size:10px}h1{font-size:21px;margin-block-end:22px}.answer{font-size:12px}.answer .lead{font-size:14px}.source-body{padding:0 12px 14px}.source summary{padding:12px;gap:7px}.source-location{font-size:8px}.source blockquote{font-size:10px}.evidence-heading span{font-size:8px}.composer-footer small{max-inline-size:85%;line-height:1.7}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span>세법 라이브러리</div>
+  <span class="prototype">단순화한 2안 · 개인 자료 기반 · 기능 연결 전의 화면 시안</span>
+</header>
+<div class="shell">
+  <aside class="library" aria-label="보관 자료">
+    <div class="library-heading"><h2>내 자료</h2><span>PDF 13개</span></div>
+    <button class="upload" type="button" disabled aria-describedby="upload-help"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M12 4v16M4 12h16"/></svg>자료 올리기</button>
+    <p class="upload-help" id="upload-help">원하는 사용 흐름: 업로드하면 자동 위키 정리<br>이번 시안에서는 파일을 저장하지 않습니다.</p>
+    <a class="document active" href="../raw/2026%20원천세%20신고안내.pdf" target="_blank" rel="noopener"><span class="document-title"><svg width="14" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H5v20h14V7Z"/><path d="M14 2v6h5M8 12h8M8 16h6"/></svg>2026 원천세 신고안내</span><small>2026.09 · 위키 연결</small></a>
+    <a class="document" href="../raw/07-소득세%20집행기준.pdf" target="_blank" rel="noopener"><span class="document-title"><svg width="14" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H5v20h14V7Z"/><path d="M14 2v6h5M8 12h8M8 16h6"/></svg>소득세 집행기준</span><small>2026.09 · 위키 연결</small></a>
+    <a class="document" href="../raw/02-국세기본법%20집행기준.pdf" target="_blank" rel="noopener"><span class="document-title"><svg width="14" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H5v20h14V7Z"/><path d="M14 2v6h5M8 12h8M8 16h6"/></svg>국세기본법 집행기준</span><small>2026.09 · 위키 연결</small></a>
+    <a class="document" href="../raw/08-법인세%20집행기준.pdf" target="_blank" rel="noopener"><span class="document-title"><svg width="14" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H5v20h14V7Z"/><path d="M14 2v6h5M8 12h8M8 16h6"/></svg>법인세 집행기준</span><small>2026.09 · 위키 연결</small></a>
+    <a class="library-more" href="../wiki/sources/index.md">전체 자료 보기 →</a>
+    <div class="library-bottom"><p class="workflow"><strong>자료를 넣고, 질문만 하세요.</strong>원본 보관 → 자동 위키 정리 → 질문<br>자동 정리는 구현할 사용 흐름입니다.</p><small>근거가 없는 내용은 확인 불가로 구분합니다.<br>공식 국세청 서비스가 아닌 개인 위키입니다.</small></div>
+  </aside>
+  <main class="workspace">
+    <div class="reading-column">
+      <div class="workspace-top"><span>위키에 질문</span><span class="scope">보관한 자료 안에서</span></div>
+      <h1>원천세 신고와 지급명세서 제출은 어떻게 달라?</h1>
+      <div class="answer-label"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 12 5 5L20 6"/></svg>기존 위키를 바탕으로 구성한 답변 예시</div>
+      <section class="answer" aria-label="자료 기반 답변 예시">
+        <p class="lead">둘은 별도로 확인해야 하는 절차입니다.</p>
+        <p><strong>원천세 신고</strong>는 원천징수이행상황신고서를 작성해 신고하는 절차입니다. 안내서는 납부·환급세액이 있는지와 관계없이 신고서를 제출하도록 설명합니다.<a class="citation" href="#source-1" aria-label="근거 1 확인">1</a></p>
+        <p><strong>지급명세서 제출</strong>은 소득 유형에 따른 지급명세서를 따로 제출하는 절차입니다. 지급명세서와 간이지급명세서의 제출 시기와 예외를 구분해야 합니다.<a class="citation" href="#source-2" aria-label="근거 2 확인">2</a></p>
+        <p>다만, 간이지급명세서를 제출한 부분은 연간 지급명세서 제출이 면제되는 경우와 예외가 있습니다. 무조건 같은 내용을 두 번 제출하는 것은 아닙니다.<a class="citation" href="#source-2" aria-label="지급명세서 예외의 근거 확인">2</a></p>
+      </section>
+      <div class="answer-limit"><strong>이 답변에서 확정하지 않은 것</strong><br>실제 제출 대상과 기한은 소득 종류·지급일·특례를 확인해야 합니다. 현재 법령과의 대조는 하지 않았습니다.</div>
+      <section class="evidence" aria-label="답변의 원문 근거">
+        <div class="evidence-heading"><h2>근거 2개</h2><span>문장 → 파일 → PDF 페이지로 확인</span></div>
+        <details class="source" id="source-1" open>
+          <summary><span class="source-number">1</span><span class="source-name">2026 원천세 신고안내.pdf</span><span class="source-location">PDF 35쪽 · 인쇄 25쪽</span><span class="source-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="source-body">
+            <blockquote data-evidence-page="35">납부(환급)세액의 유무와 관계없이 원천징수이행상황신고서를 작성하여 제출</blockquote>
+            <div class="source-meta"><span>자료 발간 2026.09 · 직접 인용</span><a class="original-link" href="../raw/2026%20원천세%20신고안내.pdf#page=35" target="_blank" rel="noopener">원본 PDF 35쪽 열기 ↗</a></div>
+          </div>
+        </details>
+        <details class="source" id="source-2">
+          <summary><span class="source-number">2</span><span class="source-name">2026 원천세 신고안내.pdf</span><span class="source-location">PDF 75쪽 · 인쇄 65쪽</span><span class="source-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="source-body">
+            <blockquote data-evidence-page="75">간이지급명세서(사업·기타)를 제출한 경우 그 제출한 부분에 대하여 사업·기타소득 지급명세서(연1회) 제출 면제.</blockquote>
+            <p class="quote-extra">같은 주석은 연말정산 사업소득(보험설계사·방문판매원·음료배달원)의 경우 두 서류를 모두 제출해야 한다고 설명합니다. 예외까지 함께 확인합니다.</p>
+            <div class="source-meta"><span>자료 발간 2026.09 · 직접 인용 + 예외 요약</span><a class="original-link" href="../raw/2026%20원천세%20신고안내.pdf#page=75" target="_blank" rel="noopener">원본 PDF 75쪽 열기 ↗</a></div>
+          </div>
+        </details>
+      </section>
+      <section class="composer" aria-label="질문 입력의 디자인 예시">
+        <label for="question">내 자료에 질문하기</label>
+        <input id="question" type="text" placeholder="궁금한 내용을 입력하세요" disabled>
+        <div class="composer-footer"><small>설계 원칙: 근거 문장·파일·페이지·기준일을 함께 제시</small><button class="send" type="button" disabled aria-label="질문 보내기: 기능 연결 전"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></button></div>
+      </section>
+      <p class="disclaimer">화면 시안입니다. 자료 업로드·자동 위키 정리·답변 생성은 실행되지 않습니다. 인용 펼치기와 원문 링크는 작동합니다.</p>
+    </div>
+  </main>
+</div>
+<script>
+document.querySelectorAll('.citation').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    const selected = document.getElementById(link.getAttribute('href').slice(1));
+    document.querySelectorAll('.source').forEach(source => { source.open = source === selected; });
+    selected.scrollIntoView({block:'nearest'});
+    selected.querySelector('summary').focus({preventScroll:true});
+  });
+});
+</script>
+</body>
+</html>

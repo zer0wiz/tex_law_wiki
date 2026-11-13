@@ -1,0 +1,362 @@
+{
+  "sources": [
+    {
+      "slug": "national-tax-framework-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 24,
+          "needle": "14-0-1"
+        },
+        {
+          "pdf_page": 24,
+          "needle": "구체적인 증빙"
+        },
+        {
+          "pdf_page": 41,
+          "needle": "26의2-0-7"
+        },
+        {
+          "pdf_page": 73,
+          "needle": "45의2-0-3"
+        },
+        {
+          "pdf_page": 115,
+          "needle": "59의2-0-1"
+        }
+      ]
+    },
+    {
+      "slug": "national-tax-collection-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 15,
+          "needle": "1-0-3"
+        },
+        {
+          "pdf_page": 36,
+          "needle": "31-0-1"
+        },
+        {
+          "pdf_page": 36,
+          "needle": "압류의 요건 및 절차"
+        },
+        {
+          "pdf_page": 51,
+          "needle": "47-0-1"
+        },
+        {
+          "pdf_page": 51,
+          "needle": "48-0-1"
+        },
+        {
+          "pdf_page": 86,
+          "needle": "신구조문 대비표"
+        }
+      ]
+    },
+    {
+      "slug": "vat-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 17,
+          "needle": "2-0-1"
+        },
+        {
+          "pdf_page": 17,
+          "needle": "2-2-1"
+        },
+        {
+          "pdf_page": 33,
+          "needle": "8-0-2"
+        },
+        {
+          "pdf_page": 33,
+          "needle": "8-0-3"
+        },
+        {
+          "pdf_page": 87,
+          "needle": "29-0-10"
+        },
+        {
+          "pdf_page": 87,
+          "needle": "29-0-11"
+        }
+      ]
+    },
+    {
+      "slug": "excise-stamp-liquor-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 17,
+          "needle": "1-0-1"
+        },
+        {
+          "pdf_page": 73,
+          "needle": "하나의 문서의 의의"
+        },
+        {
+          "pdf_page": 107,
+          "needle": "불순물이 포함된 알코올의 취급"
+        },
+        {
+          "pdf_page": 108,
+          "needle": "5-0-1"
+        },
+        {
+          "pdf_page": 119,
+          "needle": "면허장소 외의 장소에서의 제조 또는 판매 행위"
+        },
+        {
+          "pdf_page": 120,
+          "needle": "3-3-1"
+        }
+      ]
+    },
+    {
+      "slug": "property-securities-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 15,
+          "needle": "2-1의2-2"
+        },
+        {
+          "pdf_page": 40,
+          "needle": "14-5의3-10"
+        },
+        {
+          "pdf_page": 40,
+          "needle": "15-6-4"
+        },
+        {
+          "pdf_page": 49,
+          "needle": "2-0-2"
+        },
+        {
+          "pdf_page": 50,
+          "needle": "3-0-2"
+        }
+      ]
+    },
+    {
+      "slug": "income-tax-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "1의2-2-1"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "생활관계의 객관적인 사실"
+        },
+        {
+          "pdf_page": 36,
+          "needle": "12-8의2-2"
+        },
+        {
+          "pdf_page": 36,
+          "needle": "12-8의2-4"
+        },
+        {
+          "pdf_page": 130,
+          "needle": "문화비로 지출한 기업업무추진비"
+        }
+      ]
+    },
+    {
+      "slug": "corporate-tax-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 23,
+          "needle": "2-0-1"
+        },
+        {
+          "pdf_page": 23,
+          "needle": "2-0-2"
+        },
+        {
+          "pdf_page": 35,
+          "needle": "15-0-1"
+        },
+        {
+          "pdf_page": 45,
+          "needle": "19-0-1"
+        },
+        {
+          "pdf_page": 45,
+          "needle": "19-0-2"
+        },
+        {
+          "pdf_page": 129,
+          "needle": "40-71-8"
+        },
+        {
+          "pdf_page": 129,
+          "needle": "40-71-11"
+        }
+      ]
+    },
+    {
+      "slug": "inheritance-gift-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "2-0-1"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "2-0-2"
+        },
+        {
+          "pdf_page": 124,
+          "needle": "45-34-3"
+        },
+        {
+          "pdf_page": 124,
+          "needle": "증여받은 사실이 확인될 경우"
+        },
+        {
+          "pdf_page": 124,
+          "needle": "45의2-0-1"
+        },
+        {
+          "pdf_page": 197,
+          "needle": "16-12-1"
+        }
+      ]
+    },
+    {
+      "slug": "capital-gains-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "88-0-1"
+        },
+        {
+          "pdf_page": 25,
+          "needle": "88-0-2"
+        },
+        {
+          "pdf_page": 81,
+          "needle": "98-162-1"
+        },
+        {
+          "pdf_page": 81,
+          "needle": "98-162-2"
+        },
+        {
+          "pdf_page": 92,
+          "needle": "99-165-5"
+        },
+        {
+          "pdf_page": 92,
+          "needle": "99-165-7"
+        }
+      ]
+    },
+    {
+      "slug": "tax-incentives-guidance",
+      "citations": [
+        {
+          "pdf_page": 3,
+          "needle": "2026년 10월"
+        },
+        {
+          "pdf_page": 5,
+          "needle": "2026년 9월 기준"
+        },
+        {
+          "pdf_page": 19,
+          "needle": "2-0-2"
+        },
+        {
+          "pdf_page": 20,
+          "needle": "6-0-2"
+        },
+        {
+          "pdf_page": 34,
+          "needle": "9-8-1"
+        },
+        {
+          "pdf_page": 34,
+          "needle": "클라우드컴퓨팅서비스"
+        },
+        {
+          "pdf_page": 98,
+          "needle": "2009.2.12."
+        }
+      ]
+    }
+  ]
+}

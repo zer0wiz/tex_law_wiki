@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "batch": "additions-20261113",
+  "observed_at": "2026-11-13T10:31:36.842162+00:00",
+  "timezone": "Etc/UTC",
+  "storage": "user-supplied-existing-raw-preserved",
+  "message_id": null,
+  "sources": [
+    {
+      "raw_id": "59bca60f-dddc-4947-b6ac-deb29be85967",
+      "file": "02-국세기본법 집행기준.pdf",
+      "aliases": [],
+      "sha256": "12fef3ac6e49ec6841195ad29ebd6f75a4af0d8f1da93ca7b695a5b2f4bcd596",
+      "bytes": 5744127,
+      "slug": "national-tax-framework-guidance",
+      "page_count": 154,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016094032+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016100029+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/national-tax-framework-guidance.md",
+      "source_page": "wiki/sources/national-tax-framework-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        16,
+        152,
+        154
+      ],
+      "control_character_pages": [],
+      "total_characters": 209745
+    },
+    {
+      "raw_id": "60995245-19c2-4a7a-b7d4-4091a9bda25c",
+      "file": "03-국세징수법 집행기준.pdf",
+      "aliases": [],
+      "sha256": "49bb4cefb829af4d63deb727563c52b8ad2beefd69a0a23bcbc8a4065ef948c9",
+      "bytes": 3591409,
+      "slug": "national-tax-collection-guidance",
+      "page_count": 88,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016094138+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016095941+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/national-tax-collection-guidance.md",
+      "source_page": "wiki/sources/national-tax-collection-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        14,
+        88
+      ],
+      "control_character_pages": [],
+      "total_characters": 117249
+    },
+    {
+      "raw_id": "d7b9f6b9-b1a6-4671-bc3a-dea679ab75e1",
+      "file": "04-부가가치세 집행기준.pdf",
+      "aliases": [],
+      "sha256": "e4eda7bf461f80bd00a3464eff74319fec93ef2aa17d99bd4577936cf1cf83d3",
+      "bytes": 6399809,
+      "slug": "vat-guidance",
+      "page_count": 174,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016094606+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016095950+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/vat-guidance.md",
+      "source_page": "wiki/sources/vat-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        172,
+        174
+      ],
+      "control_character_pages": [],
+      "total_characters": 222569
+    },
+    {
+      "raw_id": "c38093d4-bdc4-4b3c-9f1b-6373f3d74f33",
+      "file": "05-개별소비세,인지세,주세, 주류면허법 집행기준.pdf",
+      "aliases": [],
+      "sha256": "a43cbac0196d875845cac8e8679103cc1a3a06a3a9855781c1a4eebd773e967a",
+      "bytes": 5307752,
+      "slug": "excise-stamp-liquor-guidance",
+      "page_count": 142,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016094726+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016095934+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/excise-stamp-liquor-guidance.md",
+      "source_page": "wiki/sources/excise-stamp-liquor-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        16,
+        140,
+        142
+      ],
+      "control_character_pages": [],
+      "total_characters": 183260
+    },
+    {
+      "raw_id": "09bbba2c-2fe8-423b-9ead-aa81de1aa5be",
+      "file": "06-종합부동산세, 증권거래세 집행기준.pdf",
+      "aliases": [
+        "06-종합부동산세, 증권거래세 집행기준 (1).pdf"
+      ],
+      "sha256": "f7f961a3d900fa9a3a44ca84cf88da9de9aff982a909c235de653c56e8691d7f",
+      "bytes": 2862807,
+      "slug": "property-securities-guidance",
+      "page_count": 66,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016094929+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016095713+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/property-securities-guidance.md",
+      "source_page": "wiki/sources/property-securities-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        66
+      ],
+      "control_character_pages": [],
+      "total_characters": 78765
+    },
+    {
+      "raw_id": "91230d29-ee3e-4d28-a60d-20d282fc3227",
+      "file": "07-소득세 집행기준.pdf",
+      "aliases": [],
+      "sha256": "7d87f2af96ecabb6184c331c3de2abfd55de53631f89175e5e61240079d53e1d",
+      "bytes": 5466988,
+      "slug": "income-tax-guidance",
+      "page_count": 236,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261020142618+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261020142702+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/income-tax-guidance.md",
+      "source_page": "wiki/sources/income-tax-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        24,
+        236
+      ],
+      "control_character_pages": [],
+      "total_characters": 298011
+    },
+    {
+      "raw_id": "eafe3081-948d-44de-8ba8-4a161e67da17",
+      "file": "08-법인세 집행기준.pdf",
+      "aliases": [],
+      "sha256": "a249bd06206faa317a77ccaa02f8f68ccd2571804ea3f5020037fbbc3e409c57",
+      "bytes": 8465866,
+      "slug": "corporate-tax-guidance",
+      "page_count": 236,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016095248+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016095958+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/corporate-tax-guidance.md",
+      "source_page": "wiki/sources/corporate-tax-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        234,
+        236
+      ],
+      "control_character_pages": [],
+      "total_characters": 310209
+    },
+    {
+      "raw_id": "2a45fc5b-2dd5-4f78-82e2-b9a302cd911d",
+      "file": "09-상속세 및 증여세 집행기준.pdf",
+      "aliases": [],
+      "sha256": "b6dba42798390c458f8c754c5d96873bb4d3761317548c22d3cf044967d1fb8c",
+      "bytes": 8175926,
+      "slug": "inheritance-gift-guidance",
+      "page_count": 222,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016095405+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016100021+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/inheritance-gift-guidance.md",
+      "source_page": "wiki/sources/inheritance-gift-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        24,
+        222
+      ],
+      "control_character_pages": [],
+      "total_characters": 271379
+    },
+    {
+      "raw_id": "29b61d05-0fb8-47a5-838d-cf327bb1dd63",
+      "file": "10-양도소득세 집행기준.pdf",
+      "aliases": [],
+      "sha256": "bf666aee93e4dd58c2baa50b52b0974b4c3b0dd99b9ce4dc7ab5a97727b7de51",
+      "bytes": 6269347,
+      "slug": "capital-gains-guidance",
+      "page_count": 162,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016095518+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016100014+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/capital-gains-guidance.md",
+      "source_page": "wiki/sources/capital-gains-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        24,
+        162
+      ],
+      "control_character_pages": [],
+      "total_characters": 197026
+    },
+    {
+      "raw_id": "0f884176-8287-46e6-b15b-58179939a1df",
+      "file": "11-조세특례제한법 집행기준.pdf",
+      "aliases": [],
+      "sha256": "ec3d2c5032a100154fc1c7a0257b911b3d409b5542bf06f397ff390d73b3fd9f",
+      "bytes": 6580042,
+      "slug": "tax-incentives-guidance",
+      "page_count": 178,
+      "pdf_metadata": {
+        "/Author": "FORYOUCOM",
+        "/CreationDate": "D:20261016095645+09'00'",
+        "/Creator": "Hwp 2018 10.0.0.14515",
+        "/ModDate": "D:20261016100007+09'00'",
+        "/PDFVersion": "1.4",
+        "/Producer": "Hancom PDF 1.3.0.550"
+      },
+      "text_file": "derived/additions-20261113/tax-incentives-guidance.md",
+      "source_page": "wiki/sources/tax-incentives-guidance.md",
+      "empty_text_pages": [
+        2,
+        4,
+        6,
+        18,
+        178
+      ],
+      "control_character_pages": [],
+      "total_characters": 226011
+    },
+    {
+      "raw_id": "521518d3-cb5e-4c19-b67e-41b1b196fa1d",
+      "file": "2026 원천세 신고안내.pdf",
+      "aliases": [],
+      "sha256": "6f61327991af8ac6a04d7c96faf7d10bef0c6be9a16c3515ea2a9f88a8d67f3a",
+      "bytes": 13133049,
+      "slug": "withholding-2026",
+      "page_count": 267,
+      "pdf_metadata": {
+        "/Author": "um",
+        "/CreationDate": "D:20260910164949+09'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/ModDate": "D:20260911163118+09'00'",
+        "/Producer": "Acrobat Distiller 26.0 (Windows)",
+        "/Title": "<3230323620BFF8C3B5BCBC20BDC5B0EDBEC8B3BB5F32303236303931302E687770>"
+      },
+      "text_file": "derived/additions-20261113/withholding-2026.md",
+      "source_page": "wiki/sources/withholding-2026.md",
+      "empty_text_pages": [
+        2,
+        10,
+        100,
+        116,
+        146,
+        180,
+        194,
+        210
+      ],
+      "control_character_pages": [
+        1
+      ],
+      "total_characters": 194493
+    }
+  ]
+}

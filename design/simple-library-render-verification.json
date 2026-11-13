@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-11-13T12:04:00.135Z",
+  "dimensions": {
+    "width": 1440,
+    "height": 1040,
+    "scrollWidth": 1440,
+    "scrollHeight": 1040,
+    "title": "세법 라이브러리 · 자료와 근거로 답하기"
+  },
+  "screenshot": "design/concept-02.png",
+  "scope": "PDF 새 창 종료 후 뷰포트가 변경되어 최종 1440×1040 화면을 명시적으로 복원하고 렌더링함."
+}

@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-11-13T10:40:45.095041+00:00",
+  "result": "passed",
+  "physical_added_pdfs": 12,
+  "unique_added_sources": 11,
+  "unique_extracted_pages": 1925,
+  "physical_added_pages": 1991,
+  "all_previous_raw_hashes_unchanged": true,
+  "duplicate_aliases_preserved": true,
+  "log_prefix_preserved": true,
+  "evidence_citations_checked": 90,
+  "wiki_markdown_files": 33,
+  "internal_links_checked": 351,
+  "all_wiki_pages_reachable": true,
+  "empty_text_page_count": 59,
+  "scope": "원본 보존·해시 중복·전체 페이지 블록·선별 근거 문구·내부 링크·로그 접두부. 현행 법령 전수 대조·수치 계산·전체 표/이미지 전사는 제외."
+}

@@ -1,0 +1,99 @@
+{
+  "verifiedAt": "2026-11-13T11:23:56.543Z",
+  "scope": "정적 컨셉 HTML·PNG·필수 영역·데스크톱/모바일 넘침·갤러리 링크와 이미지. 업로드·질문 생성·검색·정리 기능의 실행 검증이 아님.",
+  "results": [
+    {
+      "concept": "01",
+      "desktop": {
+        "title": "시안 01 · 업무 대시보드 | 세법 위키 디자인 시안",
+        "width": 1440,
+        "height": 1040,
+        "scrollWidth": 1425,
+        "scrollHeight": 1067,
+        "bodyFont": "\"Malgun Gothic\", \"맑은 고딕\", \"Segoe UI\", sans-serif",
+        "hasUpload": true,
+        "hasSearch": true,
+        "hasQuestion": true,
+        "hasCleanup": true,
+        "hasStaticWarning": true
+      },
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 375
+      },
+      "screenshot": "C:/Users/aaron/Dev/docs/tex_law_wiki/design/concept-01.png"
+    },
+    {
+      "concept": "02",
+      "desktop": {
+        "title": "시안 02 · 검색과 질문 | 세법 위키 디자인 시안",
+        "width": 1440,
+        "height": 1040,
+        "scrollWidth": 1440,
+        "scrollHeight": 1040,
+        "bodyFont": "\"Malgun Gothic\", \"맑은 고딕\", \"Segoe UI\", sans-serif",
+        "hasUpload": true,
+        "hasSearch": true,
+        "hasQuestion": true,
+        "hasCleanup": true,
+        "hasStaticWarning": true
+      },
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 375
+      },
+      "screenshot": "C:/Users/aaron/Dev/docs/tex_law_wiki/design/concept-02.png"
+    },
+    {
+      "concept": "03",
+      "desktop": {
+        "title": "시안 03 · 자료 서재 | 세법 위키 디자인 시안",
+        "width": 1440,
+        "height": 1040,
+        "scrollWidth": 1425,
+        "scrollHeight": 1123,
+        "bodyFont": "\"Malgun Gothic\", \"맑은 고딕\", \"Segoe UI\", sans-serif",
+        "hasUpload": true,
+        "hasSearch": true,
+        "hasQuestion": true,
+        "hasCleanup": true,
+        "hasStaticWarning": true
+      },
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 375
+      },
+      "screenshot": "C:/Users/aaron/Dev/docs/tex_law_wiki/design/concept-03.png"
+    }
+  ],
+  "gallery": {
+    "title": "세법 위키 · 화면 디자인 3가지",
+    "images": [
+      {
+        "src": "design/concept-01.png",
+        "loaded": true,
+        "width": 1440,
+        "height": 1040
+      },
+      {
+        "src": "design/concept-02.png",
+        "loaded": true,
+        "width": 1440,
+        "height": 1040
+      },
+      {
+        "src": "design/concept-03.png",
+        "loaded": true,
+        "width": 1440,
+        "height": 1040
+      }
+    ],
+    "conceptLinks": 3,
+    "width": 1440,
+    "scrollWidth": 1425,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 375
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-13T12:03:30.276Z",
+  "desktop": {
+    "title": "세법 라이브러리 · 자료와 근거로 답하기",
+    "width": 900,
+    "scrollWidth": 900,
+    "scrollHeight": 1224,
+    "staticWarning": true
+  },
+  "citation2": {
+    "first": false,
+    "second": true,
+    "focus": "source-2"
+  },
+  "pdfOriginalUrl": "file:///C:/Users/aaron/Dev/docs/tex_law_wiki/raw/2026%20%EC%9B%90%EC%B2%9C%EC%84%B8%20%EC%8B%A0%EA%B3%A0%EC%95%88%EB%82%B4.pdf#page=35",
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 375
+  },
+  "galleryLinkPassed": true,
+  "recovery": "초기 원문 URL 비교에서 한글 인코딩 차이로 검사 실패. 이미 열린 PDF URL을 URL API로 정규화해 확인했으며 제품의 링크 수정은 필요하지 않았음.",
+  "scope": "단순화한 시안·인용 펼치기·원본 PDF 실제 열기·모바일 넘침·갤러리. 업로드·자동 정리·답변 생성은 연결 전."
+}

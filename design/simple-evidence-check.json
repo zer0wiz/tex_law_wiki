@@ -1,0 +1,17 @@
+{
+  "quote_checks": [
+    {
+      "pdf_page": 35,
+      "exact_normalized_match": true,
+      "quote": "납부(환급)세액의 유무와 관계없이 원천징수이행상황신고서를 작성하여 제출"
+    },
+    {
+      "pdf_page": 75,
+      "exact_normalized_match": true,
+      "quote": "간이지급명세서(사업·기타)를 제출한 경우 그 제출한 부분에 대하여 사업·기타소득 지급명세서(연1회) 제출 면제."
+    }
+  ],
+  "local_links_checked": 7,
+  "result": "passed",
+  "scope": "직접 인용 문구의 공백 정규화 대조 및 실제 원본 경로 확인"
+}

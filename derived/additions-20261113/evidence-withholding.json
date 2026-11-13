@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "slug": "withholding-2026",
+      "citations": [
+        {"pdf_page": 3, "needle": "2026. 9."},
+        {"pdf_page": 3, "needle": "원천징수이행상황신고서"},
+        {"pdf_page": 12, "needle": "이후 지급분부터"},
+        {"pdf_page": 12, "needle": "(예정)"},
+        {"pdf_page": 14, "needle": "비사업자 포함"},
+        {"pdf_page": 14, "needle": "사업소득을 지급하는 자가 사업자가 아닌 개인인 경우"},
+        {"pdf_page": 32, "needle": "귀속연월, 지급연월"},
+        {"pdf_page": 32, "needle": "지급명세서를 제출 누락"},
+        {"pdf_page": 35, "needle": "납부(환급)세액의 유무와 관계없이"},
+        {"pdf_page": 35, "needle": "납부세액이 없는 소득자에게 지급한 금액도 포함"}
+      ],
+      "visual_evidence": "derived/additions-20261113/withholding-cover.png"
+    },
+    {
+      "slug": "national-tax-framework-guidance",
+      "citations": [
+        {"pdf_page": 3, "needle": "2026년 10월"},
+        {"pdf_page": 5, "needle": "2026년 9월 기준"},
+        {"pdf_page": 5, "needle": "기본통칙을 보완하는 실무지침"}
+      ]
+    }
+  ]
+}

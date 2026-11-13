@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-11-13T09:47:19.641057+00:00",
+  "result": "passed",
+  "source_hashes_checked": 2,
+  "pdf_source_removed": true,
+  "pdf_page_count": 3978,
+  "extracted_page_blocks": 3978,
+  "empty_text_pages": 0,
+  "total_characters": 2981538,
+  "section_count": 9,
+  "wiki_markdown_files": 19,
+  "law_pages": 9,
+  "concept_pages": 3,
+  "internal_links_checked": 147,
+  "selected_evidence_pages_checked": 16,
+  "all_wiki_pages_reachable": true,
+  "scope": "원본 해시·이동·전체 추출 범위·선별 조문 위치·내부 링크·색인 도달성. 법률 해석·표 시각 전수 검증은 제외."
+}
