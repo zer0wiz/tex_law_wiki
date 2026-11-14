@@ -9,6 +9,7 @@
 - [Karpathy의 LLM Wiki 원문](raw/karpathy-llm-wiki.md)
 - [추가 집행기준·원천세 안내 분석](wiki/sources/additions-20261113.md)
 - [자료 유형과 적용 시점](wiki/concepts/source-authority-and-versioning.md)
+- [승인 우선 에이전트 부트스트랩](agent-bootstrap.md)
 
 추가 PDF 12개 중 고유 자료 11개·1,925쪽을 반영했습니다. 같은 해시의 중복 사본도 원본은 보존합니다. 새 집행기준은 2026년 9월 기준의 실무지침이며, 기존 법령집과 적용 시점을 나누어 읽습니다.
 
